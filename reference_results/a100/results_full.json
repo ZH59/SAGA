@@ -1,0 +1,19 @@
+{
+  "dataset": "dataset/full_n20_m5_u30",
+  "variant": "rtss24",
+  "cores": 5,
+  "tasksets": 10,
+  "tasksets_capped": 2,
+  "speedup_median": 117.6,
+  "speedup_min": 6.54,
+  "speedup_max": 149.74,
+  "wcrt_jobs": 600,
+  "wcrt_exact": 582,
+  "wcrt_tighter_than_exact": 6,
+  "unsafe_verdict_flips": 0,
+  "deadline_violations": 0,
+  "verdict_mismatches": [],
+  "incomplete": [
+    "taskset_005"
+  ]
+}

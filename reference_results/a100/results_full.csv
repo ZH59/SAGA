@@ -1,0 +1,11 @@
+taskset,variant,cores,gpu_verdict,nptest_verdict,verdict_match,gpu_wall_s,nptest_cpu_s,speedup,nptest_capped,ref_jobs,ref_exact,ref_loose,ref_unsound,ref_maxdev,unsafe_verdict_flip,deadline_violations,run_exact,run_unsound
+taskset_000,rtss24,5,YES,YES,True,0.0979,8.2161,83.94,False,100,100,0,0,0,False,0,100,0
+taskset_001,rtss24,5,YES,YES,True,0.0559,1.753,31.35,False,100,91,9,0,1,False,0,91,0
+taskset_002,rtss24,5,YES,YES,True,0.0494,1.426,28.84,False,100,100,0,0,0,False,0,100,0
+taskset_003,rtss24,5,YES,CAP,True,40.2524,300.0,7.45,True,0,0,0,0,0,False,0,0,0
+taskset_004,rtss24,5,YES,YES,True,0.0359,0.2347,6.54,False,100,100,0,0,0,False,0,100,0
+taskset_005,rtss24,5,TRUNCATED,CAP,False,20.2841,300.0,,True,0,0,0,0,0,False,0,0,0
+taskset_006,rtss24,5,YES,YES,True,0.3419,40.2033,117.6,False,100,100,0,0,0,False,0,100,0
+taskset_007,rtss24,5,YES,YES,True,0.7431,102.6393,138.13,False,0,0,0,0,0,False,0,100,0
+taskset_008,rtss24,5,YES,YES,True,1.9101,286.0163,149.74,False,100,91,3,6,1,False,0,91,6
+taskset_009,rtss24,5,YES,YES,True,1.1037,149.1509,135.14,False,0,0,0,0,0,False,0,98,0
